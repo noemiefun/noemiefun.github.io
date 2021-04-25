@@ -22,9 +22,15 @@ Team members and info are in '_config.yml'
 Images are in '/img/team/'
 
 
-# Demo
+# Launch local
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+- Make sure to have the following files:
+    - Gemfile
+    - Gemfile.lock
+    - _config.yaml
+- If above files are not present:
+    - follow the [instructions](https://jekyllrb.com/docs/)
+    - move files outside of `myblog`
+    - `rm -rf myblog`
+- `bundle exec jekyll serve`
+- `http://localhost:4000`
