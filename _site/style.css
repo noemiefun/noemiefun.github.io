@@ -1153,15 +1153,19 @@ body {
  header {
      text-align: center;
      color: #fff;
+     background-color: #ff0;
      background-attachment: scroll;
      background-image: url('/img/header.jpg');
-     background-position: center center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     background-size: cover;
-     -o-background-size: cover;
+     padding-bottom: 20%;
+     /* background-position: center center; */
+     /* background-repeat: no-repeat; */
+     /* background-size: cover; */
+     /* background-position: center;*/
+     /* background-repeat: no-repeat; */
+     /* background-size: cover; */
+     /* transform: scale(0.6) */
+     /* background-size: 90% 100%; */
+     /* background-size: unset; */
  }
  
  header .intro-text {
